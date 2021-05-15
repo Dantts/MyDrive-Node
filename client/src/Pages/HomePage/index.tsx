@@ -1,12 +1,17 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { 
+  GlobalContainer,
+ } from './styles';
+
+import Header from '../../Components/Header/Header';
 
 const HomePage: React.FC = () => {
   return (
-      <div>
-          <p>Home Page</p>
-      </div>
+      <GlobalContainer>
+        <Header />
+          
+      </GlobalContainer>
   );
 }
 
