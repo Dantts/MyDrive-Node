@@ -12,6 +12,7 @@ function App() {
         families: [
           'Kanit',
           'Yeseva One',
+          'Bree Serif',
         ]
       }
     })
