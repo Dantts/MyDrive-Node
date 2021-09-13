@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import fonts from '../../styles/Fonts/Fonts';
+import colors from '../../styles/Colors/colors';
 
 
 export const HeaderContainer = styled.div`
@@ -15,9 +16,9 @@ export const HeaderContent = styled.div`
     width: 100vw;
     height: 80px;
     img {
-        margin-left: 30px;
-        width: 70px;
-        height: 70px;
+        margin: 0 20px 0 30px;
+        width: 50px;
+        height: 50px;
     }
 
     div{
@@ -32,13 +33,13 @@ export const HeaderContent = styled.div`
                 margin-left: 5px;
                 font-size: 26px;
                 font-family: ${fonts.mydrive};
-                color: white;
+                color: ${colors.black};
             }
         }
 
         &:nth-child(2){
             justify-content: space-around;
-            width: 30%;
+            width: 20%;
         }
 
         &:nth-child(3){
@@ -50,7 +51,6 @@ export const HeaderContent = styled.div`
                 border: none;
                 background: none;
                 font-family: ${fonts.primary};
-                background: yellow;
                 width: 83px;
                 height: 35px;
                 border-radius: 7px;
@@ -59,20 +59,20 @@ export const HeaderContent = styled.div`
                 cursor: pointer;
 
                 &:nth-child(1){
-                    color: black;
+                    color: ${colors.black};
                     background: white;
 
                     &:hover{
-                        background: #F9F9F9;
+                        background: ${colors.whiteDark};
                     }
                 }
 
                 &:nth-child(2){
-                    color: white;
-                    background: #774DD9;
+                    color: ${colors.white};
+                    background: ${colors.purple};
 
                     &:hover{
-                        background: #6D46CA;
+                        background: ${colors.purpleDark};
                     }
                 }
 
@@ -92,7 +92,7 @@ export const Link = styled.a<{selected: String}>`
     justify-content: center;
     height: 30px;
     width: 70px;
-    color: black;
+    color: ${colors.black};
     font-family: ${fonts.primary};
     font-size: 14px;
 
