@@ -9,9 +9,11 @@ import {
   FeaturesContent,
   PeopleComments,
   StartExperience,
+  PlataformContainer,
 } from './styles';
 
 import Header from '../../Components/Header/Header';
+import Footer from '../../Components/Footer/Footer';
 
 import images from '../../Helpers/ImageExport';
 
@@ -117,7 +119,21 @@ const HomePage: React.FC = () => {
             </div>
 
           </StartExperience>
-          
+
+          <PlataformContainer>
+            <h6>our plataform</h6>
+            <h1>Feel the experience everywhere</h1>
+            <p>You can found us in all major plataforms, enabling you to work seamlessy<br/> across your browser, mobile device and computer</p>
+
+            <div>
+              <img src={images.googlePlay} alt="googlePlay store" />
+              <img src={images.appleStore} alt="apple store" />
+            </div>
+
+          </PlataformContainer>
+
+          <Footer/>
+
         </BodyContainer>
 
 

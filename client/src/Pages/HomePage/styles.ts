@@ -254,7 +254,7 @@ export const StartExperience = styled.div`
     div{
         display: flex;
         flex-direction: row;
-        width: 65%;
+        width: 1250px;
         border-radius: 40px;
         background: rgb(91,199,231);
         background: -moz-linear-gradient(110deg, rgba(91,199,231,1) 73%, rgba(83,204,186,1) 100%);
@@ -358,5 +358,57 @@ export const StartExperience = styled.div`
         }
     
     }
+
+`;
+
+export const PlataformContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    h6{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        color: ${colors.purpleDark};
+        font-family: ${fonts.primary};
+    }
+
+    h1{
+        text-align: center;
+        font-family: ${fonts.primary};
+        font-size: 60px;
+        font-weight: 500;
+        color: ${colors.black}; 
+        margin: 10px 0 30px 0;
+    }
+
+    p{
+        color: ${colors.grayDark};
+        font-weight: 500;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0 100px 0; 
+
+        img{
+            width: 20%;
+            margin: 0 40px;
+        }
+        
+    }
+
 
 `;

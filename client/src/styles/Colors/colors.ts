@@ -2,6 +2,8 @@
 const colors = {
     headerBackground: '#F6E8FF',
 
+    footer: '#000C19',
+
     white: '#ffffff',
     whiteDark: '#F9F9F9',
 
